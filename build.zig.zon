@@ -1,0 +1,29 @@
+.{
+    .name = "Powertrain_Simulator",
+
+    .version = "0.0.0",
+
+    .dependencies = .{
+        .mach_glfw = .{
+            .hash = "12205118090fedc7365ad90f8462bb1ba7181811d510d5b64b22958d3b953d4094eb",
+            .url = "git+https://github.com/StartForKiller/mach-glfw.git#4939521075f4f6e39c43049379d7a0e360909416",
+        },
+        .zgl = .{
+            .hash = "12201ba34cd1c6b182acc03fa970adf5aa5019a6282088633b572c24bc8580270d1f",
+            .url = "git+https://github.com/StartForKiller/zgl.git#019d77cd741a12e4e17baeae90f97e27199135da",
+        },
+        .ZigImGui = .{
+            .hash = "122019519512a4ddeb8f2442855556509b471858dce2f9eb9501ac41aa0d90fdb70d",
+            .url = "git+https://github.com/StartForKiller/Zig-ImGui.git#421a3ae2aa21571aef4add222313f8c4f014bf46",
+        },
+    },
+
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+        // For example...
+        //"LICENSE",
+        //"README.md",
+    },
+}
